@@ -1,0 +1,17 @@
+#!/bin/bash
+
+## Parses out the branch name from .git/HEAD: 
+
+#cd SYP_login
+#gitbranch=`git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
+
+if [ "$1" != "eclass" ] && [ "$1" != "eclass-restful" ] && [ "$1" != "office-restful" ]; then
+    echo "Usage:"
+    echo "  $0 [eclass/eclass-restful/office-restful]"
+    exit
+fi
+
+rm -rf build/SYP_login/*
+cp -r SYP_login/SYP_src/* build/SYP_login
+cd build
+./compile.sh $1

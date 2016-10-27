@@ -1,0 +1,28 @@
+<server mode>
+mode:   user_defined
+
+<tcm server>
+http://:8000
+
+<teacher manager>
+http://:8090
+
+<part no>
+cloud-client-fsl-kvm
+
+<firmware version>
+2014-01-05-15
+
+<upgrade history>
+fsl-kvm-sycos-2014-06-30-00
+fsl-kvm-sycos-2014-09-26-12 [2014-09-26 11:54:19]
+fsl-kvm-sycos-2014-09-26-13 [2014-09-26 12:22:30]
+fsl-kvm-sycos-2014-09-26-13 [2014-09-26 12:25:18]
+fsl-kvm-sycos-2014-09-26-14 [2014-09-26 15:02:47]
+fsl-kvm-sycos-2014-09-29-16 [2014-09-29 16:27:15]
+fsl-kvm-sycos-2014-09-30-10 [2014-09-30 10:44:23]
+fsl-kvm-sycos-2014-09-30-10 [2014-09-30 10:50:43]
+fsl-kvm-sycos-2014-09-30-11 [2014-10-08 14:28:31]
+fsl-kvm-sycos-2014-09-30-11 [2014-10-09 14:46:51]
+
+<eof>
